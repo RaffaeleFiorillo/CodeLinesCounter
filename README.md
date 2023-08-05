@@ -11,12 +11,12 @@ With just a few clicks and even less seconds, it swoops through your project dir
 - Saves the information in a file named Lines_of_Code_Report.txt.
 
 # How to Use
-1. Download LinesCounter.exe (Windows) or LinesCounter.py (Windows, Linux, Mac, ...);
-2. Place it in the root folder of your project;
-3. Execute the tool:
-  3-a. (Using LinesCounter.exe) double click on it;
-  3-b. (Using LinesCounter.py) open terminal/comand prompt and execute it;
-4. A console will open will asking for which type of file you want the tool to count the lines (e.g: .py, .cs, .js, ...). You can specify one, or multiple types separated by commas.
+1. Download LinesCounter.exe (Windows) or LinesCounter.py (Windows, Linux, Mac, ...) and the LinesCounter-config.txt file;
+2. Place them in the root folder of your project;
+3. Open the LinesCounter-config.txt and change the configuratoin according to your needs;
+4. Execute the tool:
+   4-a. (Using LinesCounter.exe) double click on it;
+   4-b. (Using LinesCounter.py) open terminal/comand prompt and execute it;
 5. Once the process is complete, check the Lines_of_Code_Report.txt file in the same directory for the detailed report, including total lines of code and total non-empty lines of code.
 
 # Improvements
