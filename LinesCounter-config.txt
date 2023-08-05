@@ -1,0 +1,9 @@
+global root
+global UNDESIRED
+global user_chosen_extensions
+
+# subdirectories to exclude from counting process. Make sure to add an extra "\" to avoid escaping characters
+UNDESIRED = ["\src\\deprecated", "\src\\testing_env", "\src\\tools"]
+
+# File extension to include in the counting process.
+user_chosen_extensions = [".py"]
